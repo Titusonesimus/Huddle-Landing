@@ -1,7 +1,7 @@
 @media (min-width: 576px) {
 
     body{   
-        width: 100%;
+        width: 50%;
 
     }
 } 
@@ -9,7 +9,7 @@
 
 
 .header{
-    width: 100%;
+    width: 50%;
     height: 100vh;
     background-color:  rgb(168, 224, 250, 0.2);
     background-image: url(./images/bg-hero-desktop.svg);
@@ -32,7 +32,7 @@
 
 @media (max-width: 575.98px) {
     .header{
-        width: 100% !important;
+        width: 50% !important;
         height: 130vh;
         
     }
@@ -55,7 +55,7 @@
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .mockup{
-        width: 100% !important;
+        width: 50% !important;
     }
     
 }
@@ -170,7 +170,7 @@ h2{
 
 @media (min-width: 576px) {
     .logo1{
-        width: 100% !important;
+        width: 50% !important;
        border: 1px solided red;
        
    
