@@ -1,28 +1,52 @@
+
+
 @media (min-width: 576px) {
-
-    body{   
-        width: 50%;
-
+    body{
+        width: 100%;
     }
-} 
+ }
+
+
+@media (min-width: 768px) {
+    body{
+        width: 100%;
+    }
+  }
+
+
+@media (min-width: 992px) { 
+    body{
+        width: 100%;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    body{
+        width: 100%;
+    }
+}
+
+
+
 
 
 
 .header{
-    width: 50%;
+    width: 100%;
     height: 100vh;
     background-color:  rgb(168, 224, 250, 0.2);
     background-image: url(./images/bg-hero-desktop.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-   
     background-size: auto;
 
 }
 
 
-@media (max-width: 575.98px) {
+@media (min-width: 575.98px) {
     .build1{
+        width: 100%;
       margin: 40 30px;
         
     }
@@ -32,12 +56,15 @@
 
 @media (max-width: 575.98px) {
     .header{
-        width: 50% !important;
-        height: 130vh;
+        width: 100% !important;
+        height: 140vh;
         
     }
     
 }
+
+
+
 
 @media (max-width: 575.98px) {
     .mockup{
@@ -49,13 +76,13 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .mockup{
-        width: 75% !important;
+        width: 100% !important;
     }
     
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .mockup{
-        width: 50% !important;
+        width: 100% !important;
     }
     
 }
@@ -104,7 +131,7 @@ h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .logo{
@@ -170,7 +197,7 @@ h2{
 
 @media (min-width: 576px) {
     .logo1{
-        width: 50% !important;
+        width: 100% !important;
        border: 1px solided red;
        
    
