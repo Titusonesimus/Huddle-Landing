@@ -1,30 +1,8 @@
-
-
-@media (min-width: 576px) {
-    body{
-        width: 100%;
-    }
- }
-
-
-@media (min-width: 768px) {
-    body{
-        width: 100%;
-    }
-  }
-
-
-@media (min-width: 992px) { 
-    body{
-        width: 100%;
-    }
- }
-
-
-@media (min-width: 1200px) { 
-    body{
-        width: 100%;
-    }
+   
+body{
+    width: 100%;
+    /* background-color: aqua; */
+    border: 2px solid red;
 }
 
 
@@ -57,7 +35,7 @@
 @media (max-width: 575.98px) {
     .header{
         width: 100% !important;
-        height: 140vh;
+        height: 90vh;
         
     }
     
@@ -131,7 +109,7 @@ h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.2rem;
+    font-size: 20px;
 }
 
 .logo{
@@ -143,7 +121,7 @@ h2{
 }
 .footer{
     background-color: hsl(192, 100%, 9%);
-    /* padding-top: 300px; */
+  
     margin-top: 300px;
 }
 
@@ -152,20 +130,17 @@ h2{
     width: 500px;
     height: 30vh;
     margin-left: 450px;
-    /* border: 2px solid red; */
+ 
     border-radius: 10px;
     margin-top: 170px;
     flex-direction: column;
     display: flex;
-    
-    
-   
 }
 
 @media (max-width: 575.98px) {
     .box{
-        width: 400px;
-        margin-left: 40px;
+        width: 350px;
+        margin: 50 40px;
 
     
     }
