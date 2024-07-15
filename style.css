@@ -9,6 +9,18 @@
     }
     
 }
+
+
+@media (max-width: 575.98px) {
+    .users{ 
+        /* border: 2px solid red; */
+        align-items: center;
+        justify-content: center;
+        
+    }  
+}
+
+
 @media (max-width: 575.98px) {
     .logo{ 
         margin-left: 10px;
@@ -70,7 +82,7 @@ html, body{
 @media (max-width: 575.98px) {
     .reverse-on-mobile1{
         flex-direction: column-reverse;
-        margin-left: -35px;
+        /* margin-left: -30px; */
       
     }
     
@@ -79,8 +91,8 @@ html, body{
 @media (max-width: 575.98px) {
     .reverse-on-mobile2{
         flex-direction: column-reverse;
-        margin-left: -35px;
-        margin-bottom: -100px;
+        /* margin-left: -30px; */
+        /* margin-bottom: -100px; */
       
     }
     
@@ -88,7 +100,7 @@ html, body{
 
 @media (max-width: 575.98px) {
     .reverse-on-mobile3{
-        margin-left: -35px;
+        /* margin-left: -30px; */
       
     }
     
