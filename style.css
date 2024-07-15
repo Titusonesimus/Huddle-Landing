@@ -5,6 +5,7 @@
         width: 100% !important;
         overflow-x: hidden;
         margin: 0;
+        border: 2px solid red;
         
     }
     
@@ -62,7 +63,7 @@ html, body{
 @media (max-width: 575.98px) {
     .header{
         width: 100% !important;
-        height: 90vh;   
+        height: 100vh;   
     } 
 }
 
@@ -70,6 +71,8 @@ html, body{
 @media (max-width: 575.98px) {
     .reverse-on-mobile1{
         flex-direction: column-reverse;
+        border: 1px solid red;
+        margin-left: -20px;
       
     }
     
@@ -78,6 +81,17 @@ html, body{
 @media (max-width: 575.98px) {
     .reverse-on-mobile2{
         flex-direction: column-reverse;
+        border: 1px solid red;
+        margin-left: -20px;
+      
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+    .reverse-on-mobile3{
+        border: 1px solid red;
+        margin-left: -20px;
       
     }
     
@@ -301,6 +315,8 @@ h2{
     .box{
         width: 340px;
         margin: 90 23px;
+        border: 1px solid red;
+        margin-left: 15px;
     }
     
 }
