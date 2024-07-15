@@ -63,7 +63,7 @@ html, body{
 @media (max-width: 575.98px) {
     .header{
         width: 100% !important;
-        height: 100vh;   
+        height: 95vh;   
     } 
 }
 
@@ -72,7 +72,7 @@ html, body{
     .reverse-on-mobile1{
         flex-direction: column-reverse;
         border: 1px solid red;
-        margin-left: -20px;
+        margin-left: -35px;
       
     }
     
@@ -82,7 +82,7 @@ html, body{
     .reverse-on-mobile2{
         flex-direction: column-reverse;
         border: 1px solid red;
-        margin-left: -20px;
+        margin-left: -35px;
       
     }
     
@@ -91,7 +91,7 @@ html, body{
 @media (max-width: 575.98px) {
     .reverse-on-mobile3{
         border: 1px solid red;
-        margin-left: -20px;
+        margin-left: -35px;
       
     }
     
@@ -316,7 +316,9 @@ h2{
         width: 340px;
         margin: 90 23px;
         border: 1px solid red;
-        margin-left: 15px;
+        margin-left: 5px;
+        height: 200px;
+       margin-top: 200px;
     }
     
 }
