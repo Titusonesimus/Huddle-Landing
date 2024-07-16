@@ -1,26 +1,24 @@
    
 
-@media (max-width: 575.98px) {
-    body{
-        width: 100% !important;
-        overflow-x: hidden;
-        margin: 0;
-        
-    }
-    
-}
 
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .users{ 
-        /* border: 2px solid red; */
+        border: 2px solid red;
         align-items: center;
         justify-content: center;
         
     }  
+} */
+
+
+@media (max-width: 575.98px) {
+    .col-sm{ 
+        width: 300px;
+        border-radius: 10px;
+        
+    }  
 }
-
-
 @media (max-width: 575.98px) {
     .logo{ 
         margin-left: 10px;
@@ -78,33 +76,134 @@ html, body{
     } 
 }
 
+        /* grow together */
+
 
 @media (max-width: 575.98px) {
     .reverse-on-mobile1{
         flex-direction: column-reverse;
-        /* margin-left: -30px; */
       
     }
     
 }
+
+/* @media (min-width: 992px) {
+    .pada{
+        height: 200px;
+        margin-left: 5px;
+        margin-top: 50px;
+        padding: 0 200px;
+    }
+} */
+
+/* @media (max-width: 575.98px) {
+    .pad1{
+        align-items: center;
+        text-align: center; 
+}
+} */
+
+/* @media (max-width: 575.98px) {
+    .grow1{
+        align-items: center;
+        text-align: center;
+        height: 185px;
+        width: 275px;
+        padding: 0 1px; 
+}
+} */
+
+/* @media (min-width: 992px) {
+    .img1{
+      margin-right: 100px;  
+    } 
+} */
+
+/* folowing conversations */
+
+
+@media (max-width: 575.98px) {
+    .reverse-on-mobile3{
+        margin-left: -30px;
+      
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+    .grow2{
+        align-items: center;
+        text-align: center;
+        height: 180px;
+        width: 275px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .pad2{
+        align-items: center;
+        text-align: center;
+        width: 275px;
+      
+}
+}
+
+@media (min-width: 992px) {
+    .padb{
+        height: 200px;
+        margin-left: 5px;
+        margin-top: 50px;
+        padding: 0 200px;
+       
+        
+    } 
+}
+
+@media (min-width: 992px) {
+    .img2{
+        margin-left: 150px;    
+    } 
+}
+
+
+        /* your user */
 
 @media (max-width: 575.98px) {
     .reverse-on-mobile2{
         flex-direction: column-reverse;
         /* margin-left: -30px; */
-        /* margin-bottom: -100px; */
-      
+        /* margin-bottom: -100px; */ 
     }
-    
 }
 
 @media (max-width: 575.98px) {
-    .reverse-on-mobile3{
-        /* margin-left: -30px; */
-      
-    }
-    
+    .grow3{
+        align-items: center;
+        text-align: center;
+        padding: 5 5px;
+        height: 150px;
+        width: 275px;
 }
+}
+
+
+@media (min-width: 992px) {
+    .padc{
+        height: 200px;
+        margin-left: 5px;
+        margin-top: 50px;
+        padding: 0 200px;  
+    } 
+}
+
+
+@media (min-width: 992px) {
+    .img3{
+        margin-right: 100px; 
+    } 
+}
+
+
 
 
 @media (max-width: 575.98px) {
@@ -123,55 +222,6 @@ html, body{
        margin-top: 5px; 
     }
     
-}
-
-@media (max-width: 575.98px) {
-    .grow1{
-        align-items: center;
-        text-align: center;
-        height: 185px;
-        width: 275px;
-        padding: 0 1px;
-       
-}
-}
-
-
-@media (max-width: 575.98px) {
-    .grow2{
-        align-items: center;
-        text-align: center;
-        height: 180px;
-        width: 275px;
-}
-}
-
-@media (max-width: 575.98px) {
-    .grow3{
-        align-items: center;
-        text-align: center;
-        padding: 5 5px;
-        height: 150px;
-        width: 275px;
-}
-}
-
-@media (max-width: 575.98px) {
-    .pad1{
-        align-items: center;
-        text-align: center;
-       
-}
-}
-
-
-@media (max-width: 575.98px) {
-    .pad2{
-        align-items: center;
-        text-align: center;
-        width: 275px;
-      
-}
 }
 
 
@@ -204,58 +254,6 @@ html, body{
     }
     
 }
-
-@media (min-width: 992px) {
-    .pada{
-        height: 200px;
-        margin-left: 5px;
-        margin-top: 50px;
-        padding: 0 200px;
-       
-        
-    }
-    
-}
-
-@media (min-width: 992px) {
-    .padb{
-        height: 200px;
-        margin-left: 5px;
-        margin-top: 50px;
-        padding: 0 200px;
-       
-        
-    } 
-}
-
-@media (min-width: 992px) {
-    .padc{
-        height: 200px;
-        margin-left: 5px;
-        margin-top: 50px;
-        padding: 0 200px;  
-    } 
-}
-
-
-
-@media (min-width: 992px) {
-    .img1{
-      margin-right: 100px;  
-    } 
-}
-@media (min-width: 992px) {
-    .img2{
-        margin-left: 150px;    
-    } 
-}
-
-@media (min-width: 992px) {
-    .img3{
-        margin-right: 100px; 
-    } 
-}
-
 
 .build{
     padding-top: 50px;
