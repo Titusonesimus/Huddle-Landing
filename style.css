@@ -1,5 +1,19 @@
    
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
 
+@media (min-width: 992px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.users{
+    margin-left: -15px;
+}
 
 
 /* @media (max-width: 575.98px) {
