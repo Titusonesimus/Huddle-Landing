@@ -12,12 +12,12 @@
 } */
 
 
-@media (min-width: 633.6px) {
+/* @media (min-width: 633.6px) {
   .users {
     align-items: center;
     justify-content: center;
     }
-}
+} */
 
 /* .users{
     margin-left: -15px;
@@ -34,13 +34,14 @@
 } */
 
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .col-sm{ 
         width: 300px;
         border-radius: 10px;
         
     }  
-}
+} */
+
 @media (max-width: 575.98px) {
     .logo{ 
         margin-left: 10px;
@@ -102,9 +103,11 @@ html, body{
 
 
 @media (max-width: 575.98px) {
-    .reverse-on-mobile1{
+    .grow{
         flex-direction: column-reverse;
-
+        /* height: 70vh; */
+        /* background-color: aqua; */
+        /* width: 100%; */
       
     }
     
@@ -145,16 +148,16 @@ html, body{
 /* folowing conversations */
 
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .reverse-on-mobile3{
-      
+        flex-direction: column-reverse;
     }
     
-}
+} */
 
 /* @media (max-width: 575.98px) {
     .grow2{
-        align-items: center;
+        align-items: center; 
         text-align: center;
         height: 180px;
         width: 275px;
