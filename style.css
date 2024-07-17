@@ -1,5 +1,5 @@
    
-body::before{
+/* body::before{
     display: block;
     content: "";
     height: 60px;
@@ -9,11 +9,19 @@ body::before{
     .news-input {
         width: 50%;
     }
+} */
+
+
+@media (min-width: 633.6px) {
+  .users {
+    align-items: center;
+    justify-content: center;
+    }
 }
 
-.users{
+/* .users{
     margin-left: -15px;
-}
+} */
 
 
 /* @media (max-width: 575.98px) {
@@ -96,6 +104,7 @@ html, body{
 @media (max-width: 575.98px) {
     .reverse-on-mobile1{
         flex-direction: column-reverse;
+
       
     }
     
@@ -138,13 +147,12 @@ html, body{
 
 @media (max-width: 575.98px) {
     .reverse-on-mobile3{
-        margin-left: -30px;
       
     }
     
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .grow2{
         align-items: center;
         text-align: center;
@@ -177,7 +185,7 @@ html, body{
     .img2{
         margin-left: 150px;    
     } 
-}
+} */
 
 
         /* your user */
@@ -190,7 +198,7 @@ html, body{
     }
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .grow3{
         align-items: center;
         text-align: center;
@@ -215,7 +223,7 @@ html, body{
     .img3{
         margin-right: 100px; 
     } 
-}
+} */
 
 
 
